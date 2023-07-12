@@ -25,10 +25,19 @@
 <br>
 
 ### **🖥️담당 업무**
-|    |**박정은(팀장)**|**김정훈(팀원)**|**이소연(팀원)**|**한민주(팀원)**|
-|----|---|---|---|---|
-|**Front**|**메인 페이지**<br>- 사용자 페이지<br>- 회원가입 페이지<br>- 로그인 페이지|**레시피 페이지**<br>- 목록 페이지<br>- 관리페이지| **장바구니, 주문 페이지**<br>- 장바구니 페이지<br>- 주문 페이지<br>- 주문조회 페이지|**레시피 페이지**<br>- 상세 페이지<br>- 글 작성 페이지<br>- 글 수정 페이지|
-|**Back**|**메인 페이지**<br>- 축산물 가격 시세 데이터 반영<br>**사용자 페이지**<br>- 회원가입 및 로그인<br>- 레시피 작성, 수정, 삭제<br>**장바구니 페이지**<br>- 장바구니 조회<br>- 수량변경||**주문 페이지**<br>- 주문<br>- 주문내역 조회<br>- 주문 삭제| **레시피 페이지**<br>- 레시피 조회<br>- 장바구니에 상품 추가<br>- 댓글 기능|
+**Front (레시피 페이지)**  
+- 상세 페이지
+- 글 작성 페이지
+- 글 수정 페이지
+- index 페이지 데이터 분석 시각화
+
+**Back (레시피 페이지)**  
+- 레시피 조회
+- 장바구니에 상품 추가
+- 댓글 기능
+- 레시피 글 조회 수 
+- 회원가입 시 아이디 중복 확인 및 유효성 검사 
+- 로그인 시 아이디 및 비밀번호 확인
 
 <br>
 
@@ -60,65 +69,45 @@ Windows 10, Spring Boot 2.7.12, Eclipse, Gradle, Java 11.0.16.1, python3.8.10, M
 <hr>
 <br>
 
+### 📈**ERD**
+<img src="https://github.com/mj0718/meatmeet/assets/109218705/66104bfb-52d8-4fa9-80df-6895879a128e" width="600" height="400">
+
+### 📋**REST API**
+<img src="https://github.com/mj0718/meatmeet/assets/109218705/92fb65f6-0a71-46c9-a28f-e14ada51d0da" width="700" height="500">
+
 ### 🔍**주요 기능**
 ⭐**축산물 일별 가격 정보**
-- 당일 가격 변동 매일 아침 9시시에 반영됨
+- 가격 정보 시각화 (선 그래프)
 
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/dd1bb88d-d1cf-4d87-ba58-c5d21eda190c" width="600" height="800" border="1px solid">
+<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/dd1bb88d-d1cf-4d87-ba58-c5d21eda190c" width="600" height="800">
   
 <br><hr><br>
 
 ⭐**회원가입 및 로그인**
 - 회원가입 시 유효성 검사 및 아이디 중복 검사 진행 
 
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/c968c79c-3ebe-4b91-a362-53e391649c8b" width="400" height="300" border="1px solid">
+<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/c968c79c-3ebe-4b91-a362-53e391649c8b" width="400" height="300">
 
 <br><br>
 
 - 로그인 시 아이디 및 비밀번호 확인
 
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/e6f0acf5-4bf9-48bc-bcd6-8f3b44d1fe17" width="400" height="300" border="1px solid">
+<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/e6f0acf5-4bf9-48bc-bcd6-8f3b44d1fe17" width="400" height="300">
 
 <br><hr><br>
 
 ⭐**카테고리별 레시피 조회**
 - 돼지, 소, 닭, 계란, 우유로 카테고리를 분류한 후 그에 해당하는 레시피 조회 가능
+- 카테고리별 레시피 페이지에서 해당 상품 장바구니에 담기
 
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/699f0886-22fc-4fcc-9e94-1f64a2e03991" width="500" height="300" border="1px solid">
-
-<br><hr><br>
-
-⭐**레시피 등록 및 수정**
-- 음식 이미지 첨부 및 카테고리 지정하여 레시피 등록  
-
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/354d31a9-7fe8-4328-82c6-55ba43eab468" width="400" height="400" border="1px solid">
-
-<br><br>
-
-- 작성된 레시피 수정 및 삭제 가능
-
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/86907f6c-1696-40a4-a53e-cf0296d2b23d" width="400" height="400" border="1px solid">
+<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/699f0886-22fc-4fcc-9e94-1f64a2e03991" width="500" height="300">
 
 <br><hr><br>
 
 ⭐**댓글 작성**
 - 레시피 상세 페이지에서 해당 레시피에 대한 댓글 작성
 
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/fa4d2ef9-13ef-4cd3-8145-66e65dee91fb" width="400" height="400" border="1px solid">
-
-<br><hr><br>
-
-⭐**상품 장바구니에 담기**
-- 카테고리별 레시피 페이지에서 해당 상품 장바구니에 담아 수량 변경 가능
-
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/8af084fb-37b8-43ed-8600-3681cc67a20d" width="600" height="300" border="1px solid">
-  
-<br><hr><br>
-
-⭐**상품 주문**
-- 장바구니에 담긴 상품을 주문자 정보 입력 후 주문하기
-
-<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/dd369fb5-9514-40ca-b246-ea045526a2ff" width="600" height="400" border="1px solid">
+<img src="https://github.com/jeongEEEun/meatmeet/assets/109218705/fa4d2ef9-13ef-4cd3-8145-66e65dee91fb" width="400" height="400">
 
 <br><hr><br>
 
@@ -137,3 +126,8 @@ Windows 10, Spring Boot 2.7.12, Eclipse, Gradle, Java 11.0.16.1, python3.8.10, M
 💡회원 정보 관리
 - 주문 시 입력한 정보(주소, 전화번호 등) 저장/수정 기능
 - 가입 시 입력한 정보 수정
+
+<br>
+
+### [참고 발표 자료](https://github.com/mj0718/meatmeet/blob/main/MEATMEET_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
+### [시연영상](https://github.com/mj0718/meatmeet/blob/main/%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4)
