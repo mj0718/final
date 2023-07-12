@@ -70,10 +70,10 @@ Windows 10, Spring Boot 2.7.12, Eclipse, Gradle, Java 11.0.16.1, python3.8.10, M
 <br>
 
 ### 📈**ERD**
-<img src="https://github.com/mj0718/meatmeet/assets/109218705/66104bfb-52d8-4fa9-80df-6895879a128e" width="600" height="400">
+<img src="https://github.com/mj0718/meatmeet/assets/109218705/3fe1c8e8-cc3e-4fca-833b-fc4c3a01381d" width="600" height="400">
 
 ### 📋**REST API**
-<img src="https://github.com/mj0718/meatmeet/assets/109218705/92fb65f6-0a71-46c9-a28f-e14ada51d0da" width="700" height="500">
+<img src="https://github.com/mj0718/meatmeet/assets/109218705/54106259-b39b-403e-a985-fc84af7cd96a" width="700" height="500">
 
 ### 🔍**주요 기능**
 ⭐**축산물 일별 가격 정보**
